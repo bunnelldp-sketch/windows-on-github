@@ -1,0 +1,38 @@
+# This is a basic workflow that is manually triggered
+
+name: Manual workflow
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      name:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Person to greet'
+        # Default value if no value is explicitly provided
+        default: 'World'
+        # Input has to be provided for the workflow to run
+        required: true
+        # The data type of the input
+        type: string
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "greet"
+  greet:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Runs a single command using the runners shell
+    - name: Send greeting
+      run: wget https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x64v1.iso?t=b21df4f9-29e7-43e6-870a-bca4110b7d1a&P1=1758902501&P2=601&P3=2&P4=ysCb7E4e9j6yELrEEHX5znZtSUhnE0CcOXq47rEGGfzcstfnW1XPuRXhzdG36aNjYcVISmQC2zr%2bU5hOpgLa6tvn3m%2fHrJosCV%2fSlO1pL%2fKRtozXS%2fM2rRU82l0z3BizQG8dLTczoynSRrTjaG%2fal0EqIEXnteleHUr0t9vEreTmR2ALi5ErzufQkXnewL9W9RPOyzS1ISakrhkf8Ms%2bpH2AtTqHJ%2bgPnHKirUCgQD5bgmao75JrZdyYlFSwYW5%2fD8LEF0ruWqMXGJTIosM0draTLVROftIKQ8rtC9gu8kPqNKQ41U%2bl7XNgBgTH3FJLMdsse8PxweAvu2E1DInolA%3d%3d
+    - name: hello
+      run: git init
+    - name: why
+      run: git add .
+    - name: rossiya
+      run: git commit -m "Hello"
