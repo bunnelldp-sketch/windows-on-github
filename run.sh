@@ -1,0 +1,3 @@
+#!/bin/bash
+
+wget https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x64v1.iso?t=b21df4f9-29e7-43e6-870a-bca4110b7d1a&P1=1758902501&P2=601&P3=2&P4=ysCb7E4e9j6yELrEEHX5znZtSUhnE0CcOXq47rEGGfzcstfnW1XPuRXhzdG36aNjYcVISmQC2zr%2bU5hOpgLa6tvn3m%2fHrJosCV%2fSlO1pL%2fKRtozXS%2fM2rRU82l0z3BizQG8dLTczoynSRrTjaG%2fal0EqIEXnteleHUr0t9vEreTmR2ALi5ErzufQkXnewL9W9RPOyzS1ISakrhkf8Ms%2bpH2AtTqHJ%2bgPnHKirUCgQD5bgmao75JrZdyYlFSwYW5%2fD8LEF0ruWqMXGJTIosM0draTLVROftIKQ8rtC9gu8kPqNKQ41U%2bl7XNgBgTH3FJLMdsse8PxweAvu2E1DInolA%3d%3d
