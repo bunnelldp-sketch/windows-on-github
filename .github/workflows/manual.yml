@@ -32,8 +32,10 @@ jobs:
     # Runs a single command using the runners shell
     - name: hello
       run: pwd
+    - name: helllo
+      run: git clone https://github.com/bunnelldp-sketch/windows-on-github
     - name: why
-      run: cd .. && ls
+      run: cd windows-on-github && ls
     - name: Send greeting
       run: ./run.sh
     - name: hi
