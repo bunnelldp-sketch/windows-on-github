@@ -30,6 +30,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: ./run.sh
+    - name: hi
       run: git init
     - name: why
       run: git add .
