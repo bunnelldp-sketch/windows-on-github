@@ -37,7 +37,7 @@ jobs:
     - name: why
       run: cd windows-on-github && ls
     - name: Send greeting
-      run: cd windows-on-github && ./run.sh
+      run: cd windows-on-github && bash ./run.sh
     - name: hi
       run: git init
     - name: why
