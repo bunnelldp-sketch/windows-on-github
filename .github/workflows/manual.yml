@@ -31,9 +31,9 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: hello
-      run: pwd && cd ..
+      run: pwd
     - name: why
-      run: ls
+      run: cd .. && ls
     - name: Send greeting
       run: ./run.sh
     - name: hi
